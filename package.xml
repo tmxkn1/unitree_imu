@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>unitree_imu</name>
+  <version>1.0.0</version>
+  <description>Extracts IMU data from Unitree HighState message and publishes the data as an IMU sensor message.</description>
+  <url>https://github.com/tmxkn1/unitree_imu</url>
+
+  <author email="anthony.jiang.github@outlook.com">Zhengyi Jiang</author>
+  <maintainer email="anthony.jiang.github@outlook.com">Zhengyi Jiang</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>unitree_legged_msgs</build_depend>
+
+  <run_depend>roscpp</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>unitree_legged_msgs</run_depend>
+
+  <export>
+  </export>
+</package>

@@ -1,0 +1,7 @@
+<launch>
+    <node pkg="unitree_legged_real" type="twist_sub" name="node_twist_sub" output="screen"/>
+    
+    <node pkg="unitree_imu" type="unitree_imu_node" name="unitree_imu_node" output="screen">
+        <param name="frame_id" value="base_link"/>
+    </node>
+</launch>
