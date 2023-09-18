@@ -16,7 +16,7 @@ roslaunch unitree_imu unitree_imu.launch
 
 # unitree_imu_node
 ### Published topic:
-- sensor_msg::IMU
+- IMU(sensor_msg)
 
 ### Subscribed topic:
-- unitree_legged_msg::HighState
+- HighState(unitree_legged_msg)
